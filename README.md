@@ -24,3 +24,5 @@ Graph:
 Kadane's Algorithm : Largest Sum SubArray Finding Algorithm
 
 Infix To Postfix Evaluation
+
+Newton Raphson : Root Finding Algorithm For A Polynomial
