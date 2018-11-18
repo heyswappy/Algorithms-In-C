@@ -21,6 +21,8 @@ Graph:
 1. Depth First Search
 2. Breadth First Search
 
+Puzzle:
+1. nQueen problem
 Kadane's Algorithm : Largest Sum SubArray Finding Algorithm
 
 Infix To Postfix Evaluation
