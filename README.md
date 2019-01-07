@@ -23,6 +23,7 @@ Graph:
 
 Puzzle:
 1. nQueen problem
+
 Kadane's Algorithm : Largest Sum SubArray Finding Algorithm
 
 Infix To Postfix Evaluation
