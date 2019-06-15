@@ -20,12 +20,16 @@ Searching:
 Graph:
 1. Depth First Search
 2. Breadth First Search
+3. Djikstra
+4. Prim
+5. Kruskal
 
 Puzzle:
-1. nQueen problem
-
-Kadane's Algorithm : Largest Sum SubArray Finding Algorithm
-
-Infix To Postfix Evaluation
-
-Newton Raphson : Root Finding Algorithm For A Polynomial
+1. NQueen problem
+2. Kadane's Algorithm
+3. Infix To Postfix Evaluation
+4. Newton Raphson : Root Finding Algorithm For A Polynomial
+5. SubsetSum
+6. Knight's tour
+7. Knapsack
+8. Coinage
