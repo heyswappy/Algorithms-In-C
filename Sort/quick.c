@@ -3,7 +3,7 @@
 #include<conio.h>
 
 void quick(int *arr, int s, int e){
-	if((s==e)||((s-e)==1)||((e-s)==1)){
+	if(s>=e){
 		return;
 	}
 	int pivot = arr[s];
@@ -11,10 +11,10 @@ void quick(int *arr, int s, int e){
 	i=s+1;
 	j=e;
 	while(i<j){
-		while(arr[i]<pivot){
+		while(arr[i]<=pivot && i<=j){
 			i++;
 		}
-		while(arr[j]>pivot){
+		while(arr[j]>pivot && i<=j){
 			j--;
 		}
 		if(i>=j){
@@ -36,14 +36,20 @@ void quick(int *arr, int s, int e){
 }
 
 int main(){
-	int arr[10] = {10,9,56,23,798,0,1,6,2,5};
-	for(int i = 0;i<10;i++){
+    int n;
+    printf("Number of elements: ");
+    scanf("%d",&n);
+	int arr[n];
+	for(int i = 0;i<n;i++){
+		scanf("%d",arr+i);
+	}
+	for(int i = 0;i<n;i++){
 		printf("%d->",arr[i]);
 	}
 	printf("\n");
-	quick(arr,0,9);
-	for(int i = 0;i<10;i++){
-		printf("%d<",arr[i]);
+	quick(arr,0,n-1);
+	for(int i = 0;i<n;i++){
+		printf("%d->",arr[i]);
 	}
 	return 1;
 }
